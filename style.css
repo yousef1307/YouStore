@@ -1,0 +1,648 @@
+/* header👇👇 */
+
+*{
+    font-weight: bold;
+    user-select: none;
+}
+::-webkit-scrollbar{
+    width: 20px;
+    background-color: #ffffff;
+}
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: #5123e2;
+}
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover >ul{
+    display: inline;
+}
+nav ul{
+    background-color: #ff;
+    padding: 5px;
+    border-radius: 10px;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+nav ul li ul:hover{
+    width: auto;
+}
+.btn-purple:hover{
+    box-shadow: 0px 3px 18px -3px #5123e2;
+}
+.drop li{
+    border-top: 1px dashed grey;
+    border-radius: 10px;
+}
+li{
+    border-radius: 10px;
+    
+}
+.drop li {
+    border-radius: 10px;
+    border-top: 1px dashed grey;
+}
+
+
+
+
+.mahsoul:hover li a{
+    border-radius: 10px;
+    width: 75px;
+    height: 75px;
+    color: #eee;
+}
+
+.mahsoul:hover .digital span{
+    color: #eee;
+}
+
+
+.mahsoul:hover li{
+    border-top: 1px dashed grey;
+    width: 100px;
+    height: 60px;
+    margin: 5px;
+}
+
+.mahsoul:hover .drop{
+    background-color: #eee;
+    border-radius: 10px;
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    
+    
+}
+.mahsoul:hover .drop{
+    z-index: 1000;
+}
+
+.mahsoul{
+    width: 120px;
+}
+
+
+
+nav ul::after{
+    content: "";
+    display: block;
+}
+
+nav ul li:hover{
+    background-color: skyblue;
+    width: auto;
+}
+.mahsoul:hover{
+    width: 120px;
+}
+
+nav ul li:hover a{
+    color: #000;
+    border-radius: 10px;
+}
+li{
+    margin: 5px;
+}
+.btn{
+    height: 3rem;
+}
+
+nav ul li a{
+    display: block;
+    padding: ;
+    color:#eee;
+    text-decoration: none;
+}
+.search-header{
+    width: 97%;
+    
+}
+
+.search{
+    width: 100%;
+    height: 2vh;
+    background-color: #d8d8d8;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+}
+.search:focus{
+    box-shadow: 0px 5px 13px -5px #5123e2;
+}
+
+@font-face {
+    font-family: "youfont";
+    src:url("fonts2/Chunk/ Five/ Print.otf")format("otf"),
+        url("fonts2/Chunk\ Five\ Print.ttf")format("ttf");       
+}
+.logo{
+    font-size: xx-large;
+    font-family: "youfont";
+    text-decoration: none;
+    color: #5123e2;
+    font-weight: bolder;
+    border: 1px solid #5123e2;
+    padding: 5px 20px 5px 20px;
+    transition: transform .5s;
+    
+}
+
+.logo:hover{
+    transform: scale(1.1);
+
+}
+.ch-logo{
+    color: #5123e2;
+}
+.ch-logo:hover{
+    color: #5123e2;
+}
+
+.cont{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+#toggler,
+.navbar label{
+    display: none;
+}
+.digital:hover .drop2{
+    position: absolute;
+    right: 7em;
+    top: 0;
+    z-index: 10000;
+}
+
+.drop .digital:hover a{
+    color:#5123e2;
+}
+
+.drop .digital:hover span{
+    color:#5123e2;
+}
+
+.digital:hover .drop2 .di-drop-1 a{
+    color: #eee;
+}
+.digital:hover .drop2 .di-drop-2 a{
+    color: #eee;
+}
+.digital:hover .drop2 .di-drop-2:hover a{
+    color: #5123e2;
+}
+.digital:hover .drop2 .di-drop-1:hover a{
+    color: #5123e2;
+}
+
+.foroush{
+    width: 100%;
+    height: 10rem;
+    background: linear-gradient(90deg, rgba(81,35,226,1)0%, rgba(36,15,105,1)100%);
+    padding: 2em 3.5em 2em 3.5em;
+    margin-bottom: 3em;
+    margin-top: 1em;
+}
+
+.foroush div{
+    width: 100%;
+    height: 6em;
+    border: 2px solid  rgba(255, 255, 255, 0.479);
+    border-radius: 1em;
+    text-align: center;
+}
+.foroush-abut{
+    color: rgba(255, 255, 255, 0.479);
+    margin: 0.5em 0em 0.6em 0em;
+}
+.logo-por{
+    margin-bottom: .5em;
+}
+/* footer👇👇 */
+footer{
+    overflow: hidden;
+    width: 100%;
+    height: 30em;
+    border-top: 3px solid #5123e2;
+    position: relative;
+    line-height: 2em;
+}
+
+.logo2{
+    font-size: xx-large;
+    font-family: "youfont";
+    width: 5.5em;
+    text-decoration: none;
+    color: #5123e2;
+    font-weight: bolder;
+    border: 1px solid #5123e2;
+    padding: 5px 20px 5px 20px;
+    transition: transform .2s;
+    margin: 1em 2em 1em 2em
+    
+}
+
+.logo2:hover{
+    transform: scale(1.1);
+
+}
+.ch-logo2{
+    color: #5123e2;
+    text-decoration: none;
+}
+.ch-logo2:hover{
+    color: #5123e2;
+}
+
+.back-to-up{
+    position: absolute;
+    left: 3em;
+    top: 2em;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.ul-foot{
+    position: absolute;
+    top: 21%;
+    right: 58%;
+}
+.ul-foot h5{
+    margin: 0 1em 1em 0;
+}
+.ul-foot ul li{
+    color: #5123e2;
+}
+.ul-foot ul li a{
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-body-color-rgb),.75);
+    text-decoration: none;
+}
+.ul-foot2{
+    position: absolute;
+    top: 21%;
+    right: 78%;
+}
+.ul-foot2 h5{
+    margin: 0 1em 1em 0;
+}
+.ul-foot2 ul li{
+    color: #5123e2;
+}
+.ul-foot2 ul li a{
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-body-color-rgb),.75);
+    text-decoration: none;
+}
+.abut-foot{
+    position: relative;
+    width: 40%;
+    top: -25%;
+}
+.abut-foot1{
+    position: absolute;
+    color: #5123e2;
+    right: 4em;
+    top: 8em;
+}
+.abut-foot2{
+    position: absolute;
+    top: 10em;
+    right: 4em;
+    left: 2em;
+}
+
+
+
+@media screen and
+(max-width: 600px) {
+    .logo{
+        margin-bottom: 1em;
+    }
+    .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+    .list{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .digital:hover .drop2{
+        position: absolute;
+        right: 0em;
+        top: 0em;
+        z-index: 10000;
+    }
+
+    .navbar label{
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    #toggler:checked ~ .menu{
+        max-height: 100%;
+    }
+    .search-header{
+        width: 100%;
+    }
+    .search{
+        width: 100%;
+    }
+    
+}
+
+
+/* main👇👇 */
+.main{
+    height: 30rem;
+    display: flex;
+    margin: 1em;
+    align-items: baseline;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.kala{
+    position: relative;
+    border: 1px solid #eee;
+    border-top: none;
+    height: 100%;
+    text-align: center;
+    width: 30%;
+    height: 33em;
+    margin: 2em 1em;
+    border-radius: 1em;
+    box-shadow: 0px 15px 40px -32px #494949;
+    background-color: #eee;
+    transition: transform .5s;
+    display: -webkit-inline-box;
+}
+.kala:hover{
+    transform: scale(1.1);
+}
+
+img{
+    display: block;
+    margin: 1% 20% 1% 1%;
+}
+ 
+
+.main a{
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+}
+.main a:hover{
+    color: #000;
+}
+.kala .gheimat{
+    position: absolute;
+    bottom: 14%;
+    left: 7%;
+    color: #000;
+
+}
+.kala .emtiaz{
+    position: absolute;
+    bottom: 8em;
+    left: 2em;
+    color: #d8d708;
+    
+}
+.emtiaz span{
+    color: #000;
+}
+
+.abut{
+    position: absolute;
+    bottom: 35%;
+    left: 10%;
+    right: 10%;
+    color: #000;
+}
+
+.row{
+    --bs-gutter-x: 0 !important;
+}
+
+.disabled{
+    color: #858585 !important;
+}
+
+.mobile a img{
+    width: 13em;
+    height: 16em;
+}
+
+
+.Tv a img{
+    width: 60%;
+}
+
+li{
+    color: #eee;
+}
+.mahsoul{
+    font-weight: bold;
+}
+.telegram:hover{
+    color: rgb(0, 153, 255);
+}
+.instagram:hover{
+    color: rgb(218, 58, 156);
+}
+.twitter:hover{
+    color: rgb(0, 102, 255);
+}
+.github:hover{
+    color: #000;
+}
+.social-media a{
+    text-decoration: none;
+}
+.social-media{
+    position: absolute;
+    width: 98%;
+    top: 75%;
+    right: 3em;
+}
+.icon-foot{
+    margin: 1%;
+    font-size: xxx-large;
+    color: #b2b2b2;
+}
+.foot{
+    text-align: center;
+}
+.ch-foot{
+    color: #eee;
+    margin-top: 22em;
+    background-color: #5123e2;
+    border-bottom: 2px solid #5123e2;
+    border-top: 2px solid #5123e2;
+
+}
+
+
+
+
+
+
+
+@media screen and 
+(max-width:1064px) {
+    .kala{
+        width: 40%;
+        margin: 3% 4% 3% 4%;
+    }
+    .abut-foot{
+        display: contents;
+    }
+    .ul-foot{
+        top: 19em;
+        right: 3em;
+    }
+    .ul-foot2{
+        top: 35em;
+        right: 3em;
+    }
+    .social-media{
+        top: 20em;
+        width: 1em;
+        right: 80%;
+        text-align: center;    
+    }
+    .social-media a{
+        margin: 200% 0 0 0;
+        display: flex;
+    }
+    .foot{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+    }
+    footer{
+        height: 55em;
+    }
+    
+    
+}
+@media screen and 
+(max-width:700px) {
+    .kala{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: baseline;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .kala a img{
+        height: 17em;
+        width: auto;
+        margin: 0;
+    }
+    .aaaa{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    
+}
+@media screen and 
+(max-width:530px) {
+    .kala a img{
+        margin: 0;
+    }
+    .abut{
+        top: 18em;
+    }
+    .abut-foot1{
+        top: 17%;
+    }
+    .ul-foot{
+        top: 33em;
+    }
+    .ul-foot2{
+        top: 48em;
+    }
+    .social-media{
+        top: 30em;
+    }
+    footer{
+        height: 70em;
+    }
+    .f-logo{
+        display: flex;
+        justify-content: center;
+    }
+    .back-to-up{
+        top: 9%;
+        right: 25%;
+        left: 25%;
+    }
+    .foot1{
+        margin: 15% 0 0 0;
+    }
+    .abut-foot2{
+        margin: 15% 0 0 0;
+    }
+    
+@media screen and 
+(max-width:350px) {
+    .kala a img{
+        height: 13em;
+        width: auto;
+    }
+    .abut{
+        position: absolute;
+        top: 14em;
+    }
+    .kala .emtiaz{
+    top: 20em;
+    }
+    .kala .gheimat{
+        left: 4em;
+        top: 22em;
+    }
+    .kala .disabled{
+        left: 6em;
+        top: 22em;
+    }
+    .kala{
+        height: 27em;
+    }
+    
+}
+
